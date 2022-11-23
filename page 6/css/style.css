@@ -1,0 +1,142 @@
+body{
+    background: #23242a;
+}
+
+.navbar{
+    margin-bottom: 50px;
+    background: #1c1c1c !important;
+}
+
+.nav-link {
+    color: #8f8f8f !important;
+} 
+.nav-link:hover {
+    color: #45f3ff !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #8f8f8f;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #45f3ff !important; 
+}
+
+footer {
+    background: #1c1c1c;
+    color: #8f8f8f;
+}
+
+.container-outer{
+    margin: 60px;
+}
+
+/*Line 1*/
+.container-outter2 {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    border-bottom: 2px solid #45f3ff;
+    color: #8f8f8f;
+}
+
+.container-inner-p6 {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 400px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+}
+
+/*box 1*/
+.box1-p6 {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-right: 2px solid #45f3ff;
+    padding-right: 50px;
+    margin-left: 70px;
+    color: #8f8f8f;
+}
+
+.mini-box {
+    border-bottom: 2px solid #45f3ff;   
+    padding: 10px 10px 0 10px; 
+}
+
+.image{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.inner-item-dropmenu {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+select {
+width: 400px;
+}
+
+
+/*box 2*/
+.box2-p6 {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-right: 70px;
+    color: #8f8f8f;
+}
+
+.mini-box {
+    border-bottom: 2px solid #45f3ff;   
+    padding: 10px 10px 0 10px; 
+}
+
+.image{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.inner-item-dropmenu {
+    display: flex;
+    justify-content:end;
+    align-items:flex-end;
+}
+
+/*Line2*/
+.container-outter3 {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    border-bottom: 2px solid #45f3ff;
+    color: #8f8f8f;
+}
+
+/*Line 3*/
+.container-outter4 {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    border-bottom: 2px solid #45f3ff;
+    color: #8f8f8f;
+}
+
+select {
+    background: #23242a;
+    border: 1px solid #45f3ff;
+    color: #8f8f8f;
+    border-radius: 5px;
+    width: 600px;
+}
